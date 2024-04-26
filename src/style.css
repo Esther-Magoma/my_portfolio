@@ -1,0 +1,56 @@
+*,
+*::after,
+*::before{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-align: center;
+}
+
+img{
+    display:block;
+    width:1000px;
+    height:350px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: radial-gradient(coral,white);
+    background-size: cover;
+    background-position: center;
+}
+
+main{
+height: 400px;
+width:400px;
+}
+   
+
+
+.header{
+    position: sticky;
+    top:0;
+    z-index:1;
+    background-color: coral;
+    color:blue
+}
+
+.footer{
+    position: sticky;
+    bottom:0;
+    background-color: coral;
+    color:azure;
+    padding:1rem;
+    
+}
+
+header_ul{
+    padding: 1rem;
+    list-style-type: none;
+    display:flex;
+    justify-content: space-evenly;
+    gap:1rem;
+}
