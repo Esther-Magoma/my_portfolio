@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    </head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <section>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-me.html">About Me</a></li>
+                <li><a href="mini-projects.html">Mini Projects</a></li>
+            </ul>
+        </section>
+    </header>
+    <main>
+        <form action="submit_contact_form.php" method="post">
+            <label for="first_name">First Name:</label><br>
+            <input type="text" id="first_name" name="first_name" required><br>
+            <label for="last_name">Last Name:</label><br>
+            <input type="text" id="last_name" name="last_name" required><br>
+            <label for="email">Email Address:</label><br>
+            <input type="email" required><br>
+<label for="phone">Phone Number:</label><br>
+<input type="tel" id="phone" name="phone" required><br>
+<fieldset>
+    <legend>Send me a message</legend>
+    <label for="message">Your Message:</label><br>
+    <textarea name="message" id="message" cols="30" rows="10" placeholder="type your messace here"></textarea>
+</fieldset>
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
