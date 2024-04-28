@@ -88,6 +88,15 @@ body{
     margin-right:10px;
 }
 
-.center{
+/* .center{
     float: left;
+} */
+
+section{
+    height:500px;
+    width:auto;
+}
+
+h1{
+    text-align: center;
 }
